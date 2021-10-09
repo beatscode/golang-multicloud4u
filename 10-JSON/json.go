@@ -31,7 +31,6 @@ func main() {
 	}
 	fmt.Println(string(bs))
 
-
 	s := `[{"Name":"James Bond","Age":32},{"Name":"Jackie Chan","Age":27}]`
 	bs = []byte(s)
 	fmt.Printf("%T\n", s)
