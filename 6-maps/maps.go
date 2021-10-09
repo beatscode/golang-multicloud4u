@@ -21,8 +21,8 @@ func main() {
 	fmt.Println("map:", states)
 
 	//Check if key exists
-	_, prs := states["Arizona"]
-	fmt.Println("prs:", prs)
+	exists, prs := states["Arizona"]
+	fmt.Println("prs:", prs, exists)
 
 	//Loop over keys and values
 	for state, city := range states {
