@@ -39,7 +39,7 @@ func main() {
 	})
 
 	http.HandleFunc("/search", func(w http.ResponseWriter, r *http.Request) {
-		r.ParseForm()
+		//r.ParseForm()
 		term := r.FormValue("term")
 		var results []countryData
 		for countryCode, countryData := range allCountries {
