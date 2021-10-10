@@ -28,6 +28,7 @@ func execute() {
 	// This Blocks the execution
 	// until its counter become 0
 	wg.Wait()
+	fmt.Println("\nDone Waiting")
 }
 
 func main() {
